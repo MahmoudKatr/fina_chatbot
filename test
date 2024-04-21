@@ -1,0 +1,7 @@
+import speech_recognition as sr
+sr.__version__
+'3.8.1'
+
+r = sr.Recognizer()
+r.recognize_google()
+
